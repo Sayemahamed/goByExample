@@ -25,7 +25,7 @@ func main() {
 	fmt.Println(l)
 	l = slice[4:]
 	fmt.Println(l)
-	twoDSlice := make([][2]int,2)
+	twoDSlice := make([][2]int, 2)
 	fmt.Println(twoDSlice)
 	for i := 0; i < len(twoDSlice); i++ {
 		for j := 0; j < len(twoDSlice[i]); j++ {
