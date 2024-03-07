@@ -19,4 +19,7 @@ func main() {
 		}
 		fmt.Println()
 	}
+	primeNumbers := []int{2, 3}
+	primeNumbers = append(primeNumbers, 5, 7, 11, 13)
+	fmt.Println(primeNumbers)
 }
