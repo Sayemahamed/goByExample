@@ -35,7 +35,7 @@ func measure(g geometry) {
 	fmt.Println(g.perimeter())
 }
 func main() {
-	a := circle{2}
+	a := circle{4}
 	b := rectangle{3, 4}
 	measure(&a)
 	measure(&b)
