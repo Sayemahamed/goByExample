@@ -10,7 +10,7 @@ import (
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	str, _ := reader.ReadString('\n')
-	str = str[:len(str)-1]
+	str = str[:len(str)-1] //remove \n
 	fmt.Println(str)
 	fmt.Println("Rune count :", utf8.RuneCountInString(str), "length is :", len(str))
 	for _, char := range str {
