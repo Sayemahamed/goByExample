@@ -1,0 +1,1 @@
+{"name":"Local: banglaCharacter","url":"c:\\Users\\sayem\\source\\goByExample\\banglaCharacter\\banglaCharacter.go","tests":[{"id":1709893967726,"input":"শুভ সকাল বাংলাদেশ\n\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\sayem\\source\\goByExample\\banglaCharacter\\banglaCharacter.go","group":"local","local":true}
